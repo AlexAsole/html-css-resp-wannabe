@@ -61,7 +61,7 @@
 }
 
 .container.grey {
-  background-color: #f9f9f9;
+  background-color: #f00;
 }
 
 img {
@@ -76,16 +76,30 @@ img {
 
 @media screen and (max-width: 420px){
 
+  .row{
+    width: 100%;
+  }
+
   #lezioni > .row > .left,
   #lezioni > .row > .right,
   #steps > .row > .left,
   #steps > .row > .central,
-  #steps > .row > .right{
-    width: 100%;
+  #steps > .row > .right,
+  #why > .first,
+  #why > .second,
+  #why > .third{
+    width: 80%;
+
   }
 
-  #steps > .row > .left{
+  img{
+    height: 100px;
   }
+
+
+
+
+
 
 
 
